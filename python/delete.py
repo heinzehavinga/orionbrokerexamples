@@ -2,7 +2,7 @@
 
 import requests
 
-url = 'http://178.21.117.113:1026/v1/contextEntities/test_entity2'
+url = 'http://178.21.117.113:1026/v1/contextEntities/test_entity'
 headers = {'Accept': 'application/json', 'Content-Type': 'application/json'}
 
 r = requests.delete(url, headers=headers)
